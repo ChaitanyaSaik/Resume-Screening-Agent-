@@ -1,0 +1,21 @@
+Michael Chen
+michael.chen@example.com | (415) 555-0132
+
+Summary:
+Full-stack developer with 5 years of experience, strong in Python backend
+and React frontend, with cloud deployment experience.
+
+Experience:
+Full-Stack Developer, Northstar Apps (2019 - Present) - 5 years of experience
+- Built REST APIs with Django REST Framework and Flask
+- Developed frontend features in React and Redux
+- Managed PostgreSQL and Redis in production
+- Set up Docker Compose environments and basic Kubernetes deployments
+- Deployed services to AWS (ECS, RDS, S3) with Terraform
+- Practiced agile development with two-week sprints
+
+Skills: Python, Django, Flask, REST API, React, PostgreSQL, Redis, Docker,
+Kubernetes, AWS, Terraform, Git, Agile, Testing, Unit Testing
+
+Education:
+Bachelor of Science in Computer Science, UC Irvine, 2018

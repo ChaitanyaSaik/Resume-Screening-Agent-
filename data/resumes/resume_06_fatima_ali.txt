@@ -1,0 +1,17 @@
+Fatima Ali
+fatima.ali@example.com | +971 50 123 4567
+
+Summary:
+Junior software developer with 1 year of experience, eager to grow backend
+skills.
+
+Experience:
+Junior Developer, StartHive Technologies (2023 - Present) - 1 year of experience
+- Assisted in building small Flask-based internal tools
+- Wrote unit tests for existing Python scripts
+- Learned Git-based collaborative workflows
+
+Skills: Python, Flask, Git, HTML, CSS, Testing
+
+Education:
+Bachelor of Computer Applications, Jamia Millia Islamia, 2023

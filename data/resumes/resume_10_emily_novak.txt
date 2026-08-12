@@ -1,0 +1,19 @@
+Emily Novak
+emily.novak@example.com | (312) 555-0176
+
+Summary:
+Product manager with technical background, 5 years of experience, not
+currently coding professionally.
+
+Experience:
+Product Manager, LaunchPad Software (2019 - Present) - 5 years of experience
+- Defined product requirements and roadmaps for backend platform teams
+- Worked closely with engineers on API design decisions
+- Basic understanding of Python and SQL from a previous developer role
+- Facilitated agile ceremonies and stakeholder communication
+
+Skills: Product Management, Agile, Scrum, Stakeholder Management,
+Communication, SQL (basic), Jira
+
+Education:
+MBA, Kellogg School of Management, 2019
