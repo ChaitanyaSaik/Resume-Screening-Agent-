@@ -1,0 +1,34 @@
+Job Title: Backend Python Developer
+
+Company: NovaGrid Technologies
+
+About the Role:
+We are looking for a Backend Python Developer to join our engineering team.
+You will design and build scalable REST APIs, work with relational and
+NoSQL databases, and help deploy services to the cloud.
+
+Requirements:
+- 3+ years of experience in backend software development
+- Strong proficiency in Python
+- Hands-on experience with Django or Flask or FastAPI
+- Experience building and consuming REST APIs
+- Experience with PostgreSQL or MySQL
+- Familiarity with Docker and basic CI/CD pipelines
+- Experience with AWS or GCP is a strong plus
+- Working knowledge of Git and collaborative workflows
+- Bachelor's degree in Computer Science or a related field (or equivalent experience)
+- Good communication skills and ability to work in an agile team
+
+Nice to Have:
+- Experience with Kubernetes
+- Exposure to machine learning or data pipelines
+- Experience with Redis or other caching layers
+- Prior experience mentoring junior engineers
+
+Responsibilities:
+- Design, build, and maintain backend services and REST APIs
+- Write clean, tested, well-documented Python code
+- Collaborate with frontend engineers and product managers
+- Participate in code reviews and agile ceremonies
+- Optimize database queries and application performance
+- Deploy and monitor services in cloud environments

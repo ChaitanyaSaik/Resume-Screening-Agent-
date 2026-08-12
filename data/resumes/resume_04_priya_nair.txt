@@ -1,0 +1,19 @@
+Priya Nair
+priya.nair@example.com | +91 90123 45678
+
+Summary:
+Data analyst transitioning into data engineering, with strong Python and
+SQL skills.
+
+Experience:
+Data Analyst, MetricWorks Analytics (2021 - Present) - 3 years of experience
+- Built data pipelines and dashboards using Python (pandas, numpy)
+- Wrote complex SQL queries against PostgreSQL and MySQL
+- Automated reporting workflows, reducing manual work by 40%
+- Basic exposure to Docker for packaging small internal tools
+
+Skills: Python, Pandas, NumPy, SQL, PostgreSQL, MySQL, Power BI, Excel,
+Data Analysis, Docker (basic)
+
+Education:
+Bachelor of Technology (B.Tech) in Information Technology, Anna University, 2020

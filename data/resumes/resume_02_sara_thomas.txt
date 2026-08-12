@@ -1,0 +1,16 @@
+Sara Thomas
+sara.thomas@example.com | (555) 123-4567
+
+Objective:
+Frontend-focused engineer looking to grow into full-stack development.
+
+Experience:
+Frontend Developer, BrightWave Media (2022 - Present) - 2 years of experience
+- Built responsive UI components using React and TypeScript
+- Worked with designers to implement Figma mockups in HTML/CSS
+- Basic exposure to REST API integration on the frontend
+
+Skills: JavaScript, TypeScript, React, HTML, CSS, Figma, Git
+
+Education:
+Bachelor of Science in Information Technology, Delhi University, 2022
