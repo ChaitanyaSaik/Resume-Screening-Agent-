@@ -45,6 +45,8 @@ resume-screening-agent/
 │   ├── extractor.py         # Extracts skills, experience, education, contact info
 │   ├── scorer.py             # TF-IDF similarity + skill overlap + experience scoring
 │   └── reasoner.py           # Generates the human-readable "why this score" text
+├── tests/                    # pytest test suite (55 tests) — see "Running the test suite" below
+├── conftest.py                # makes `src`/`main` importable from tests
 ├── data/
 │   ├── job_description.txt  # Sample JD (Backend Python Developer)
 │   └── resumes/              # 12 sample resumes — mixed .txt / .pdf / .docx
@@ -137,6 +139,41 @@ python main.py --jd path/to/your_jd.txt --resumes path/to/your/resumes_folder --
 | `--out` | `output` | Folder to write `ranked_candidates.csv` / `.json` |
 | `--use-llm` | off | Use Claude for the reasoning text (needs `ANTHROPIC_API_KEY`) |
 | `--top` | `10` | How many top candidates to print to the console |
+
+---
+
+## Running the test suite
+
+The project includes a full `pytest` test suite (55 tests) covering every
+module: file parsing (PDF/DOCX/TXT), field extraction (skills/email/phone/
+experience/education), scoring (TF-IDF similarity, skill overlap,
+experience match), reasoning (including the LLM-fallback safety path), and
+an end-to-end integration test that runs the whole agent against the real
+sample data in `data/`.
+
+```bash
+# pytest is already in requirements.txt, so it's installed by:
+# pip install -r requirements.txt
+
+python -m pytest -v
+```
+
+Expected result: `55 passed`.
+
+```
+tests/
+├── test_parser.py       # PDF/DOCX/TXT reading, unsupported formats, empty files
+├── test_extractor.py     # skills, email, phone, experience years, education
+├── test_scorer.py        # TF-IDF similarity, skill overlap, experience match
+├── test_reasoner.py      # rule-based reasoning text + LLM fallback safety
+└── test_integration.py   # runs main.run() end-to-end on the real sample data
+```
+
+Run a single file if you only want to check one part, e.g.:
+
+```bash
+python -m pytest tests/test_scorer.py -v
+```
 
 ---
 
